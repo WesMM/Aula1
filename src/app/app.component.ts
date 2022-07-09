@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Aula1';
+  exibirAmigos = false
+  mostrarAmigos(exibir: any) {
+    console.log(exibir)
+    this.exibirAmigos = exibir
+  }
 }
